@@ -1,0 +1,70 @@
+body { background: rgba(0, 0, 0, 0.7) url('1234.jpg') center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif,Cochin;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+    color: orangered;
+    text-shadow: 2px 2px #000;
+}
+
+.form-control {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-warning {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.btn-warning:hover {
+    background-color: #0056b3;
+}
+
+a {
+    color:  #007bff;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+
+          
+       
+ iframe {
+            border: 1px solid #ccc;
+            border-radius: 0px;
+        }
+.iframe-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+			 margin-top:50px;
+          
+        }
+		
+		
+ .back-btn {
+            margin-top: 10px;
+			   background-color: orangered;
+    border-color: orangered;
+        }
+		
+		
+ .back-btn:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}

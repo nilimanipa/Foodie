@@ -1,0 +1,89 @@
+
+body {
+    background: rgba(0, 0, 0, 0.7) url('1234.jpg') center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    color: orangered;
+
+    text-shadow: 2px 2px #fff;
+}
+
+.content h3 {
+    font-family: sans-serif;
+    font-size: 30px;
+    text-shadow: 2px 2px #fff;
+	 margin-top: 70px;
+	
+}
+
+.content h1 {
+    font-size: 50px;
+
+}
+
+.content p {
+
+    font-size: 1.2rem;
+    color: white;
+}
+
+.search input {
+    padding: 6px 30px;
+    font-size: 1em;
+    width:90%;
+
+	 margin-top: 30px;
+}
+
+.d-flex a {
+    text-decoration: none;
+    color: #fff;
+
+
+	
+    background-color:#007bff;
+    border-radius: 5px;
+}
+
+
+}
+
+.navbar {
+    display: inline-block;
+    padding: 18px;
+    text-transform: uppercase;
+}
+.navbar a{
+    text-decoration: g;
+    color: #fff;
+    padding: 4px;
+    transition: 1.5s;
+}
+.d-flex a:hover , .navbar a:hover{
+    box-shadow: 0 3px 50px orangered inset,0 3px 50px orangered inset,
+    0 3px 50px orangered inset,0 3px 50px orangered inset;
+}
+
+.iframe-container-2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+			 margin-top:5px;
+          
+        }
+.iframe-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+			 margin-top:200px;
+          
+        }
+
+ iframe {
+            border: 0px solid #ccc;
+            border-radius: 0px;
+        }
